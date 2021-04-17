@@ -35,7 +35,7 @@ body {
     width: 270px;
     height: 110px;
     background-color: #000000;
-    background-image: url(/img/icons/apple.svg);
+    background-image: url(../img/icons/apple.svg);
     background-repeat: no-repeat;
     background-position: 21px 50%;
     border-radius: 15px;
@@ -48,7 +48,7 @@ body {
     width: 270px;
     height: 110px;
     background-color: #000000;
-    background-image: url(/img/icons/googleplay-icon.svg);
+    background-image: url(../img/icons/googleplay-icon.svg);
     background-repeat: no-repeat;
     background-position: 21px 50%;
     border-radius: 15px;
@@ -84,7 +84,7 @@ main {
 }
 
 .slider-left {
-    background: url(/img/icons/arrow-left.svg) no-repeat;
+    background: url(../img/icons/arrow-left.svg) no-repeat;
     width: 80px;
     height: 80px;
     position: absolute;
@@ -92,7 +92,7 @@ main {
 }
 
 .slider-right {
-    background: url(/img/icons/arrow-right.svg) no-repeat;
+    background: url(../img/icons/arrow-right.svg) no-repeat;
     width: 80px;
     height: 80px;
     position: absolute;
@@ -145,20 +145,20 @@ main {
 }
 
 .footer-item-1 {
-    background: url(/img/icons/lightbulb-icon.svg) no-repeat center top;
+    background: url(../img/icons/lightbulb-icon.svg) no-repeat center top;
     display: flex;
     flex-direction: column;
 
 }
 
 .footer-item-2 {
-    background: url(/img/icons/browse-icon.svg) no-repeat center top;
+    background: url(../img/icons/browse-icon.svg) no-repeat center top;
     display: flex;
     flex-direction: column;
 }
 
 .footer-item-3 {
-    background: url(/img/icons/tel-icon.svg) no-repeat center top;
+    background: url(../img/icons/tel-icon.svg) no-repeat center top;
     display: flex;
     flex-direction: column;
 
