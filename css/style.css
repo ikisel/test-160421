@@ -1,0 +1,165 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #EEEEEE;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.positioner {
+    width: 1176px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.visualy-hidden {
+    visibility: hidden;
+    margin: 0 auto;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 100%;
+}
+
+
+.btn-a {
+    width: 270px;
+    height: 110px;
+    background-color: #000000;
+    background-image: url(/img/icons/apple.svg);
+    background-repeat: no-repeat;
+    background-position: 21px 50%;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 30px;
+    position: relative;
+}
+
+.btn-g {
+    width: 270px;
+    height: 110px;
+    background-color: #000000;
+    background-image: url(/img/icons/googleplay-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 21px 50%;
+    border-radius: 15px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.btn-text {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 120%;
+    padding-left: 13px;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: 85px;
+
+}
+
+.btn-flat {
+    margin-bottom: 100px;
+    margin-top: 64px;
+}
+
+main {
+    background-color: #000000;
+}
+
+.promo {
+    text-align: center;
+    position: relative;
+    width: 1288px;
+    margin: 0 auto;
+}
+
+.slider-left {
+    background: url(/img/icons/arrow-left.svg) no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+}
+
+.slider-right {
+    background: url(/img/icons/arrow-right.svg) no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    right: -75px;
+}
+
+.promo-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000000;
+    position: absolute;
+    top: calc(100% - 170px);
+    left: 400px;
+
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 50px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 200px;
+}
+
+.item-description {
+    margin-top: 10px;
+
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    width: 1288px;
+    margin: 0 auto;
+}
+
+.footer-item-1 {
+    background: url(/img/icons/lightbulb-icon.svg) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-item-2 {
+    background: url(/img/icons/browse-icon.svg) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-3 {
+    background: url(/img/icons/tel-icon.svg) no-repeat center top;
+    display: flex;
+    flex-direction: column;
+
+}
